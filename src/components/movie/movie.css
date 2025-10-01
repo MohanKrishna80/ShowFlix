@@ -1,0 +1,12 @@
+.scroll{
+    overflow-x: scroll;
+    
+}
+.scroll>div{
+    flex: 0 0 auto;
+}
+
+.scroll::-webkit-scrollbar{
+    display: none;
+}
+

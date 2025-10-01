@@ -1,0 +1,16 @@
+.img {
+    background: url("/heroBg.jpg ");
+    background-size: cover;
+    opacity: 0.8;
+    
+    height: 100%;
+    width: 100%;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
